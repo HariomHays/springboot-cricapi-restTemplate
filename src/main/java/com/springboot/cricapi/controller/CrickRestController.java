@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/cric")
 public class CrickRestController {
 
-    //12345
+    //123
     @Autowired
     private CricApiService cricApiService;
 
