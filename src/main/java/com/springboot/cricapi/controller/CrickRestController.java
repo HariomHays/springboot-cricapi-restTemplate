@@ -16,8 +16,9 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/cric")
 public class CrickRestController {
 
+    //123
     @Autowired
-    CricApiService cricApiService;
+    private CricApiService cricApiService;
 
     @GetMapping("/getscore")
     public CricScore getScore(@RequestParam("matchId") Integer matchId) {
