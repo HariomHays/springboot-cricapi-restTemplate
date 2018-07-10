@@ -13,6 +13,12 @@ public class JsonCricScore {
     @JsonProperty("score")
     private String score;
 
+    public JsonCricScore(String team1, String team2, String score) {
+        this.team1 = team1;
+        this.team2 = team2;
+        this.score = score;
+    }
+
     public String getTeam1() {
         return team1;
     }
